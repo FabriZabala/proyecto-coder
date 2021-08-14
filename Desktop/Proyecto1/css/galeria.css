@@ -1,0 +1,35 @@
+* {
+    font-family: 'Source Serif Pro', serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor {
+ width: 100%;
+ margin: auto;
+}
+
+.imagen {
+ margin: 3.5px;
+ transition: all 400ms;
+
+}
+
+.galeria .contenedor {
+    display: grid;
+}
+@media(min-width:520px){
+   .galeria .contenedor{
+    grid-template-columns: repeat(3,33.3%);
+    }
+}
+
+@media(min-width:1000px){
+    .contenedor{
+         width: 1000px;
+    }
+}
+
+img:hover {
+    transform: scale(1.15);
+}
