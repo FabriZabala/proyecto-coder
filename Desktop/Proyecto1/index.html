@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body class="bodycolor">
     <header> 
@@ -24,22 +25,36 @@
         </nav>
     </header>
     <section>
-        <img id="img" src="images/logo.png" alt="" height="120" width="120">
-        <div>
+        <div class="container">
             <h2 class="titulo1">Gimnasio Roma</h2>
+            <img id="img" src="images/logo.png" alt="" height="130" width="200">
             <p class="parrafo"> Roma Gym es un gimnasio pensado para progresar en tu fisico, para despejarte, quitarte el estres de la semana, Para la preparacion fisica 
                 pensando en deportes especificos, ¡Tenemos personal trainers que van a estar atentos para ayudarte y enseñarte, Con mas de 3 maquinas para 
                 ejercitar cada musculo, Cintas para hacer cardio, y contamos con mas de una docena de bicicletas fijas! ¿Que esperas para venir y entrenar en Roma Gym?
             </p>
             <h3 class="titulo2">¿Donde nos podes encontrar?</h3>
-            <img class="img" src="images/ubicacion.lnk" alt="" height="300" width="300">
+            <img class="img-thumbnail" src="images/ubicacion.lnk" alt="" height="300" width="300">
             <p class="parrafo ">
                 Nos encontras en Calle Pública 5, Calle Principal Quintas de Flores y, Córdoba.
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      Paginas
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="nosotros.html">Nosotros</a>
+                      <a class="dropdown-item" href="suplementos.html">Suplementos</a>
+                      <a class="dropdown-item" href="personaltrainer.html">Personaltrainer</a>
+                      <a class="dropdown-item" href="contacto.html">Contacto</a>
+                      <a class="dropdown-item" href="galeria.html">Galeria</a>
+                    </div>
+                  </div>
             </p>
         </div>
     </section>
     <footer id="grad">
-        <div>
+        <div class="lead">
+            <br>
+            <br>
             <h3>¡Contactanos!</h3>
             <img src="images/Castillo.jpg" alt="" height="120" width="120">
             <button><object data=images/WhatsApp.jpg height="80" width="80"></object></button>
@@ -49,5 +64,8 @@
             <h3>351-3270162 - 351-2679318</h3>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
