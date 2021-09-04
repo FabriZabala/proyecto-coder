@@ -7,7 +7,7 @@ header {
   color: red;
   text-align: center;
   font-size: 135%;
-  background-image: url("http://romatrainingclub.com/wp-content/uploads/2017/10/29749493_373448399898798_2916549687256987027_o.jpg");
+  background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -17,7 +17,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("http://romatrainingclub.com/wp-content/uploads/2018/05/29873358_373446756565629_530567103866745721_o.jpg"); }
+  background-image: url(../images/section.jpg)}
 
 footer {
   color: brown;
