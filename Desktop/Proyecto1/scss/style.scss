@@ -1,0 +1,151 @@
+* {
+    font-family: 'Source Serif Pro', serif;
+    padding: 0%;
+    margin: 0%;
+  }
+  @import "./colores.scss";
+
+  $width-buttom: 150px;
+  $height-buttom: 30px;
+
+  header {
+    color: $color-header;
+    text-align: center;
+    font-size: 135%;
+    background-image: url("http://romatrainingclub.com/wp-content/uploads/2017/10/29749493_373448399898798_2916549687256987027_o.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+    
+    
+  section {
+    height: 700px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://romatrainingclub.com/wp-content/uploads/2018/05/29873358_373446756565629_530567103866745721_o.jpg");
+  }
+  
+  footer {
+    color: $color-footer ;
+      text-align: center;
+      font-size: 120%;
+      padding: 0.2%;
+      background-color: black;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  #flex {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  
+  .titulo1 {
+    color: rgb(0, 100, 13);
+    padding: 0.1%;
+    text-align: center;
+  }
+  
+  .supl {
+    text-align: center;
+    color: aquamarine;
+  }
+  
+  
+.bodycolor {
+    color: aqua;
+  }
+  
+.ol {
+     list-style-type: none;
+     border: 2px dashed rgb(32, 168, 39);
+    
+
+    .suplementos {
+        color: rgb(192, 196, 9);
+        font-size: 125%;
+        padding: 4%;
+        margin: 1%;
+        display: inline;
+    }
+  }
+  
+  .ul {
+    font-size: 120%;
+  }
+  
+  .horario {
+    color: blue;
+  }
+  
+  .titulo2 {
+    color: rgba(151, 33, 175, 0.993);
+  }
+  
+  .trainer {
+    color: rgb(167, 13, 13);
+  }
+  
+  
+  .parrafo {
+    text-align: center;
+    font-size: 150%;
+    color: rgb(50, 106, 226);
+  }
+    
+  .img1 {
+    margin: 00.2%;
+    border: 3px solid black;
+    display: inline;
+    position: relative;
+    left: 170px;
+    transform: rotate(360deg);
+  }
+  
+  .img2 {
+    margin: 00.2%;
+    border: 3px solid black;
+    display: inline;
+    position: relative;
+    left: 450px;
+  }
+  
+  .img3 {
+    margin: 00.2%;
+    border: 3px solid black;
+    display: inline;
+    position: relative;
+    left: 700px;
+  }
+  
+  .formulario {
+    color: aquamarine;
+    text-align: center;
+    .select {
+      width: $width-buttom - 10px;
+      height: $height-buttom;
+    }
+
+    .opciones {
+      color: rgb(29, 168, 36);
+    }
+    
+    .consulta {
+      width: $width-buttom -25px;
+    }
+
+    .buttom {
+      width: $width-buttom;
+      height: $height-buttom;
+      background-color: $color-buttom;
+    }
+    .buttom2 {
+      width: $width-buttom;
+      height: $height-buttom;
+      background-color: $color-buttom;
+    }
+  }

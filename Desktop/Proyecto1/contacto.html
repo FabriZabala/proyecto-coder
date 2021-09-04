@@ -10,11 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bodycolor">
+<body>
     <header>
         <img src="images/Castillo.jpg" alt="" height="120" width="120">
          <h1>ROMA GYM</h1>
-        <nav>
+        <nav class="bodycolor">
             <a href="index.html">Inicio</a>
             <a href="nosotros.html">Sobre Nosotros</a>
             <a href="suplementos.html">Suplementos</a>
@@ -24,26 +24,26 @@
         </nav>
     </header>
     <section>
-        <h2>¿Como Contactarnos?</h2>
-        <form>
+        <h2 class="formulario">¿Como Contactarnos?</h2>
+        <form class="formulario">
             <label for="Mail"><strong>ingrese su mail</strong></label><br>
             <input type="mail" name="Mail">
             <br>
             <br>
             <div>
                 <label for="contacto"><strong>Nos contactas por:</strong></label>
-                <select name="Contacto">
+                <select class="select" name="Contacto">
                     <option value="consulta">Consultas</option>
                     <option value="devolucion">Devoluciones</option>
                 </select>
             </div>
             <legend><br>
 				<label for="consulta"><strong>De que queres hablarnos:</strong></label><br>
-		    		<input type="radio" name="consulta" id="pase" value="pase"/>
+		    		<input class="consulta" type="radio" name="consulta" id="pase" value="pase"/>
 		    		<label for="pase" class="opciones">Pase gimnasio</label><br>
-				    <input type="radio" name="consulta" value="Suplemento" id="Suplemento"/> 
+				    <input class="consulta" type="radio" name="consulta" value="Suplemento" id="Suplemento"/> 
 				    <label for="Suplemento" class="opciones">Suplementos</label><br>
-                    <input type="radio" name="consulta" value="personaltrainer" id="personaltrainer"/> 
+                    <input class="consulta" type="radio" name="consulta" value="personaltrainer" id="personaltrainer"/> 
 				    <label for="personaltrainer" class="opciones">personaltrainer</label>
             <div><br>
                 <legend><strong>Comentanos que quieres saber</strong></legend>
@@ -51,11 +51,14 @@
             </div>
             </legend>
             <br>
-            <input type="submit" value="Enviar Formulario"/>
-            <input type="reset" value="reiniciar formulario"/>
+            <input class="buttom" type="submit" value="Enviar Formulario"/>
+            <input class="buttom2" type="reset" value="reiniciar formulario"/>
         </form>
-        <h3 class="horario">Horario de Atencion</h3>
-        <h4 class="horario">Lunes a viernes 9 a 22hs, Sabado 11 a 19hs</h4>
+        <br>
+        <br>
+        <h3 class="formulario">Horario de Atencion</h3>
+        <br>
+        <h4 class="formulario">Lunes a viernes 9 a 22hs, Sabado 11 a 19hs</h4>
     </section>
     <footer id="grad">
         <div>
